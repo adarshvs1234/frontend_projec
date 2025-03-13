@@ -76,7 +76,7 @@ const Categorylist = () => {
         
             <tr>
               <th className="border-2 border-white px-9 py-1   xl:text-xl 2xl-text-xl ">Categories</th>
-              <th  className='border border-white px-1 py-1 col-auto text-center   xl:text-xl 2xl-text-xl' >Delete</th>
+              {/* <**th  className='border border-white px-1 py-1 col-auto text-center   xl:text-xl 2xl-text-xl' >Delete</th> */}
 
             </tr>
        
@@ -85,7 +85,7 @@ const Categorylist = () => {
 
               <tr key={category._id}>
                 <td className="border-2 border-white px-1 py-1 cursor-pointer text-center  xl:text-xl 2xl-text-xl" onClick={()=>handleclick(category._id)}>{category.category}</td>
-               <td  className=' xl:text-xl 2xl-text-xl'><button type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900  pl-3 pt-1 ml-2 pt-2 mt-1 pr-3 "   onClick={()=>deletehandle(category._id)}>X</button></td>
+               {/* <**td  className=' xl:text-xl 2xl-text-xl'><button type="button" class="text-red-700 hover:text-white border border-red-700 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 dark:focus:ring-red-900  pl-3 pt-1 ml-2 pt-2 mt-1 pr-3 "   onClick={()=>deletehandle(category._id)}>X</button></td> */}
 
 
                 {/* <td className='bg-red-500 cursor-pointer border-2 border-white rounded' onClick={()=>deletehandle(category._id)}>
