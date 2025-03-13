@@ -29,22 +29,22 @@ return response.data
 
 export  const deleteCategortyAPI = async(itemdata) =>{
 
-        console.log("Delete id",itemdata)
+//  ***       console.log("Delete id",itemdata)
         
-        const token = getToken()
-        console.log(token)
+//         const token = getToken()
+//         console.log(token)
     
      
-        const response = await axios.delete(`${BASE_URL}/category/delete_category/${itemdata}`, {
+//         const response = await axios.delete(`${BASE_URL}/category/delete_category/${itemdata}`, {
                         
-                headers:{
-                        Authorization:`Bearer ${token}`
-                }
-        })
+//                 headers:{
+//                         Authorization:`Bearer ${token}`
+//                 }
+//         })
 
        
-console.log(response.data)
+// console.log(response.data)
 
 
-return response.data
+//return response.data
 }

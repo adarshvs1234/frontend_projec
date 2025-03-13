@@ -208,7 +208,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="flex justify-center pt-3 bg-red-300 md:pb-3 cursor-pointer" onClick={() => navigate('/transaction')}>
+      <div className="flex justify-center pt-3 bg-red-300 md:pb-3 cursor-pointer" onClick={() => navigate('/alltransaction')}>
         <div className="w-full max-w-6xl">
           <table className="table-auto border-collapse border-2 border-red-200 text-left mx-auto text-lg">
             <thead>

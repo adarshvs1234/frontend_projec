@@ -62,16 +62,16 @@ export const postTransactionAPI = async(data) =>{
     } 
 
 
-export const categoryTransactionAPI = async({data,id}) =>{
+export const categoryTransactionAPI = async({data}) =>{
         console.log("data",data);
         
         const token = getToken()
         console.log(token)
 
-                console.log("idcate",id)
+               
                 
                 
-        const response = await axios.get(`${BASE_URL}/category/category_transaction/${id}`,{
+        const response = await axios.get(`${BASE_URL}/category/category_transaction`,{
                 
                 params:data,
                 headers:{

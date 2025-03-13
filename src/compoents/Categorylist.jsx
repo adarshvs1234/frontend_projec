@@ -46,7 +46,7 @@ const Categorylist = () => {
     console.log(key);
     
     
-    navigate(`/categorytrans/${key}`,)
+    navigate(`/categorytrans`,)
   }
 
 
@@ -80,7 +80,7 @@ const Categorylist = () => {
 
             </tr>
        
-         
+
             {data?.map((category) => (
 
               <tr key={category._id}>

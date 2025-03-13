@@ -39,7 +39,7 @@ const Index = () => {
    
    
     <Route path='/categorylist' element={<Categorylis/>}/>
-    <Route path='/categorytrans/:id' element={<Categorytransac/>}/>
+    <Route path='/categorytrans' element={<Categorytransac/>}/>
 
     
     
